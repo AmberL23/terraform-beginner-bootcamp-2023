@@ -47,3 +47,10 @@ https://en.wikipedia.org/wiki/Shebang_(Unix)
 
 https://en.wikipedia.org/wiki/Chmod
 https://www.gitpod.io/docs/configure/workspaces/workspace-lifecycle
+
+
+### Working Env Vars
+
+We can list out all Environment Variables (Env Vars) using the 'env' command
+
+We can filter specific env vars using grep eg. 'env | grep AWS_'f
