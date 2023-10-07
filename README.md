@@ -134,7 +134,14 @@ We can out put this changset ie. "plan" to be passed to an apply, but often you 
 
 This will run a plan and pass the changeset to be execute by terraform. Apply should prompt yes or no. 
 
-if we want to automatically approve an apply we can provide the auto approve flag eg. `terraform apply --auto-approve `
+If we want to automatically approve an apply we can provide the auto approve flag eg. `terraform apply --auto-approve `
+
+### Terraform Destroy
+
+`terraform destroy`
+This will destroy resources.
+
+If we want to automatically approve an apply we can provide the auto approve flag eg. `terraform apply --auto-approve `
 
 ## Terraform Lock Files
 
@@ -142,7 +149,7 @@ if we want to automatically approve an apply we can provide the auto approve fla
 
 The Terraform Lock File should be commited to your Version Control System (VCS) eg. Github
 
-### Terraofrm State Files
+### Terraform State Files
 
 `.terraform.tfstate` contains information about the current stat of your infrastructure. 
 
@@ -157,4 +164,6 @@ If you lose this file, you lose knowing the state of your infrastructure.
 ### Terraform Directory
 
 `.terraform` directory contains binaries of terraform providers.
+
+ 
 
